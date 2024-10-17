@@ -2,7 +2,7 @@ import React from 'react'
 
 function index({title, img, context, action}) {
   return (
-    <div className='w-[394.67px] h-full z-10 bg-[#0F172A] border border-[#0F172A] customShadow rounded-lg '>
+    <div className='max-w-[394.67px] h-full z-10 bg-[#0F172A] border border-[#0F172A] customShadow rounded-lg '>
         <img className='object-cover rounded-t-lg' width="394.67px" src={img} alt="" />
         <div className="gap-4 px-8 pt-8 flex flex-col">
             <h6 className='text-2xl font-bold leading-[26.4px] text-white'>{title}</h6>
