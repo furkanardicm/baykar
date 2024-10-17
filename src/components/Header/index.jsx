@@ -2,7 +2,7 @@ import React from 'react'
 
 function index() {
   return (
-    <div className="py-4  md:py-6 md:px-4 justify-between h-full flex items-center max-w-[1280px] mx-auto">
+    <div className="p-4 md:py-6 md:px-4 justify-between h-full flex items-center max-w-[1280px] mx-auto">
       <h5 className='text-[#78350F] text-[32px] font-bold leading-[35.2px]'>Collers</h5>
 
       {/* Desktop */}
