@@ -7,9 +7,9 @@ function index() {
     }
   return (
     <section className='gap-20 p-20 bg-[#0F172A] border-[#E2E8F0] border-y-1 flex flex-col text-nowrap w-screen relative -z-10'>
-        <div className="flex lg:flex-row flex-col gap-20 justify-between lg:justify-around mx-auto max-w-[1280px] items-center">
-            <h1 className='font-extrabold text-[32px] lg:text-[56px] leading-[61.6px] text-white'>The best of the best</h1>
-            <button className='border-2 border-white px-5 py-4 rounded-lg' type="button"><span className='float-right text-2xl leading-6 font-bold text-white'>Sign up now</span></button>
+        <div className="flex lg:flex-row flex-col gap-8 md:gap-20 mx-auto max-w-[1280px] items-center md:items-start">
+            <h1 className='font-extrabold text-[32px] md:w-[987px] lg:text-[56px] leading-[61.6px] text-white'>The best of the best</h1>
+            <button className='border-2 border-white px-6 py-5 rounded-lg max-md:mx-auto' type="button"><span className='px-6 float-right text-2xl leading-6 font-bold text-white'>Sign up now</span></button>
         </div>
         <div className="gap-12 flex relative justify-center items-center lg:flex-row flex-col">            
             <BestCard title={"Title"} img={"/shoe2.png"} context={"Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse."} action={onClicked}></BestCard>

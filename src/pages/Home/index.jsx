@@ -3,8 +3,8 @@ import LandingDatas from '../../components/LandingDatas'
 
 function index() {
   return (
-    <section className='relative flex flex-col items-center w-screen'>
-      <section className='p-20 h-auto gap-20 flex flex-col lg:flex-row items-center justify-center max-w-screen-2xl mx-auto '>
+    <section className='relative flex flex-col items-center'>
+      <section className='md:p-20 h-auto  gap-8 md:gap-20 flex flex-col pt-12 px-4 lg:flex-row items-center justify-center max-w-screen-2xl mx-auto '>
         <div className="flex flex-col gap-12 h-fit max-w-[714px]">
           <div className="flex flex-col md:text-left gap-8 text-center items-center md:items-start">
             <h1 className='font-extrabold text-[#0F172A] tracking-tight leading-[79.2px] text-7xl'>Collectible Sneakers</h1>

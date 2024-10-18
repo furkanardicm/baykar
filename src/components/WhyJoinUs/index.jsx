@@ -32,8 +32,8 @@ function index() {
                         <span className='text-[#0F172A] font-normal text-xl leading-9'>Ullamcorper ornare in et egestas dolor orci.</span>
                     </li>
                 </ul>
-                <button className="border-2 border-[#78350F] bg-transparent text-[#78350F] font-medium  text-xl leading-6 rounded-lg px-4 py-[14px] w-fit">
-                    <span className='px-4'>Sign up now</span>
+                <button className="z-20 border-2 border-[#78350F] bg-transparent text-[#78350F] font-medium  text-xl leading-6 rounded-lg px-4 py-[14px] w-fit">
+                    <span className='px-4 '>Sign up now</span>
                     
                 </button>
             </div>
