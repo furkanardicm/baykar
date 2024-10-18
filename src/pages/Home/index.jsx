@@ -28,9 +28,9 @@ function index() {
         </div>
       </section>
       <LandingDatas/>
-      <div className="absolute -bottom-[70px] h-full -z-10 flex items-center justify-center">
+      {/* <div className="absolute -bottom-[70px] h-full -z-10 flex items-center justify-center">
         <img height="806px" src="/triangle.png" alt="" />
-      </div>
+      </div> */}
     </section>
   )
 }
