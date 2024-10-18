@@ -1,8 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom';
 import MainLayout from '../layouts/main';
 import Home from '../pages/Home';
-import LandingDatas from '../components/LandingDatas'
+
 import BestOfBest from '../components/BestOfBest'
+import WhyJoinUs from '../components/WhyJoinUs'
 
 const routes = createBrowserRouter([
     {
@@ -14,8 +15,8 @@ const routes = createBrowserRouter([
                 element: 
                     <>
                         <Home/>
-                        <LandingDatas/>
                         <BestOfBest/>
+                        <WhyJoinUs/>
                     </>,
             },  
         ] 
