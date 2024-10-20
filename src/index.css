@@ -22,8 +22,8 @@ body {
   padding: 0;
 }
 /* linear-gradient(180deg, #fffbeb 0%, #ffffff 89.63%); */
-body {
-  background: #fffbeb;
+.root {
+  background: linear-gradient(180deg, #4a3f10 0%, #9d0a0a 89.63%);
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }
@@ -48,4 +48,9 @@ button.span:hover {
 .customShadow2 {
   box-shadow: 0px 0px 10px 0px #00000012;
   box-shadow: 0px 20px 25px -5px #0000001a;
+}
+
+.customShadow3 {
+  box-shadow: 0px 0px 4px 0px #00000012;
+  box-shadow: 0px 4px 6px -1px #0000001a;
 }
