@@ -3,7 +3,7 @@ import React from 'react'
 function index() {
   return (
     <footer className='px-20 bg-[#0F172A] flex flex-col text-nowrap'>
-        <div className="border-y border-[#334155] flex md:flex-row flex-col mx-auto py-12 gap-12">
+        <div className="border-y border-[#334155] flex md:flex-row flex-col py-12 gap-12 md:mx-auto items-center">
             <ul className="flex flex-col text-nowrap w-[284px]">
               <li className='py-3 gap-2 flex font-medium text-base leading-[17.6px] text-white md:text-start md:justify-start justify-center'>Product</li>
               <li className='py-3 gap-2 flex md:justify-start justify-center'><a className='text-[#E2E8F0] font-normal text-base leading-[22.4px]' href="#">Pricing</a></li>

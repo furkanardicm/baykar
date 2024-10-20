@@ -4,11 +4,9 @@ function index() {
   return (
     <section className='gap-8 md:gap-20 flex flex-col md:pt-20 pt-12 px-4 md:px-20 pb-24 md:pb-32 md:items-center relative '>
         <div className="gap-8 flex flex-col max-w-[1280px] md:text-start text-center">
-            <h2 className='font-extrabold text-[56px] leading-[61.6px] text-[#0F172A]'>Grow your collection</h2>
-            <p className='font-normal text-lg leading-[28.8px] text-[#0F172A]'>
-                Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames sit rhoncus.
-                <br></br>
-                Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.
+            <h2 className='font-extrabold text-[32px] md:text-[56px] leading-[61.6px] text-[#0F172A]'>Grow your collection</h2>
+            <p className='font-normal text-base max-md:text-center md:text-lg leading-[28.8px] text-[#0F172A] text-balance'>
+                Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames sit rhoncus. Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.
             </p>
         </div>
         <div className="gap-8 md:gap-20 flex z-20 md:flex-row flex-col">
