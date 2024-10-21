@@ -8,7 +8,7 @@ function index() {
             <h2 className='text-[#FFFBEB] font-bold text-[32px] md:text-[56px] leading-[35.2px] md:leading-[61.6px] text-center w-full'>Shoes Collected</h2>
 
         </div>
-        <div className="w-[1440px] min-h-[717px] max-h-max mx-auto overflow-hidden flex gap-20 p-20">
+        <div className="w-[1440px] min-h-[717px] max-h-max md:mx-auto overflow-hidden flex gap-20 p-20">
             <img className='bg-contain bg-no-repeat h-full bg-left md:bg-center md:mx-auto' src="/world/world.png" alt="" />
         </div>
     </section>

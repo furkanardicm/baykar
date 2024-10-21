@@ -6,9 +6,9 @@ function index() {
         console.log("Hi World!")
     }
   return (
-    <section className='gap-20 p-20 bg-[#0F172A] border-[#E2E8F0] border-y-1 flex flex-col text-nowrap relative z-20'>
-        <div className="flex lg:flex-row flex-col gap-8 md:gap-20 mx-auto max-w-[1280px] items-center md:items-start">
-            <h1 className='font-extrabold text-[32px] md:w-[987px] lg:text-[56px] leading-[61.6px] text-white'>The best of the best</h1>
+    <section className='gap-20 py-12 px-4 md:py-20 md:px-20 bg-[#0F172A] border-[#E2E8F0] border-y-1 flex flex-col text-nowrap relative z-20'>
+        <div className="gap-8 md:gap-20 flex md:flex-row flex-col mx-auto">
+            <h1 className='font-extrabold max-md:text-[32px] md:text-[56px] md:w-[967px] max-md:text-center mx-auto md:mx-0 leading-[61.6px] text-white'>The best of the best</h1>
             <button className='border-2 border-white px-6 py-5 rounded-lg max-md:mx-auto' type="button"><span className='px-6 float-right text-2xl leading-6 font-bold text-white'>Sign up now</span></button>
         </div>
         <div className="gap-12 flex relative justify-center items-center lg:flex-row flex-col">            

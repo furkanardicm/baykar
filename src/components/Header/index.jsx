@@ -2,11 +2,11 @@ import React from 'react'
 
 function index() {
   return (
-    <div className="p-4 md:py-6 md:px-4 justify-between h-full flex items-center max-w-[1280px] mx-auto">
+    <div className="p-4 md:py-6 md:px-4 justify-between h-full flex items-center max-w-[1280px] mx-auto z-40">
       <h5 className='text-[#78350F] text-[32px] font-bold leading-[35.2px]'>Collers</h5>
 
       {/* Desktop */}
-      <ul className='hidden lg:flex lg:flex-row gap-4 items-center text-base font-medium leading-6 text-[#78350F]'>
+      <ul className='hidden lg:flex lg:flex-row gap-4 items-center text-base font-medium leading-6 text-[#78350F] z-50'>
         <li className='py-2 px-3'><a href="">Products</a></li>
         <li className='py-2 px-3'><a href="">Solutions</a></li>
         <li className='py-2 px-3'><a href="">Pricing</a></li>
@@ -16,7 +16,7 @@ function index() {
       </ul>
 
       {/* Mobil & Tablet */}
-      <button className='lg:hidden'>
+      <button className='lg:hidden cursor-pointer'>
         <svg width="24" height="25" viewBox="0 0 24 25">
           <path d="M21 5.5H13" stroke="#78350F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M21 12.5H8" stroke="#78350F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
